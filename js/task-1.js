@@ -3,10 +3,10 @@ function isEnoughCapacity(products, containerSize) {
 // function checkStorage(available, ordered) {
   let message;
 
-  // Change code below this line
   // var available = 200;
   // var ordered = 50;
-if (ordered > available)
+// if (ordered > available)
+if (products > containerSize)
   /*if ((ordered == 130) || (available == 100) ||
     (ordered == 180) || (available == 150))*/
   {
